@@ -27,11 +27,11 @@ Supports Thumbs: true
 	display:block;
 }
 
-.theme-default .nivo-controlNav {
+.theme-default {
 	text-align: center;
 	padding: 20px 0;
 }
-.theme-default .nivo-controlNav a {
+.theme-default  {
 	display:inline-block;
 	width:22px;
 	height:22px;
@@ -40,11 +40,11 @@ Supports Thumbs: true
 	border:0;
 	margin: 0 2px;
 }
-.theme-default .nivo-controlNav a.active {
+.theme-default  {
 	background-position:0 -22px;
 }
 
-.theme-default .nivo-directionNav a {
+.theme-default  {
 	display:block;
 	width:30px;
 	height:30px;
@@ -77,16 +77,16 @@ Supports Thumbs: true
     color:#fff;
 }
 
-.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+.theme-default .nivo-thumbs-enabled {
 	width: 100%;
 }
-.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+.theme-default .nivo-thumbs-enabled a {
 	width: auto;
 	height: auto;
 	background: none;
 	margin-bottom: 5px;
 }
-.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+.theme-default .nivo-thumbs-enabled img {
 	display: block;
 	width: 120px;
 	height: auto;
@@ -192,17 +192,6 @@ Supports Thumbs: true
 }
 .nivo-nextNav {
 	right:0px;
-}
-/* Control nav styles (e.g. 1,2,3...) */
-.nivo-controlNav {
-	text-align:center;
-	padding: 15px 0;
-}
-.nivo-controlNav a {
-	cursor:pointer;
-}
-.nivo-controlNav a.active {
-	font-weight:bold;
 }
 
 /*=================================*/
